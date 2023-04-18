@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap");
+body {
+  background: url(../img/background.jpg) center/cover repeat;
+}
+
+.home span {
+  color: black;
+  font-size: 2em;
+  font-family: "Rubik Wet Paint", cursive;
+}
+
+.hero {
+  padding-left: 3em;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  height: 100vh;
+  width: 100vw;
+}
+.hero h3 {
+  color: wheat;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.hero h1 {
+  color: white;
+  font-family: "Tilt Prism", cursive;
+  font-weight: bold;
+}
+.hero h4 {
+  color: whitesmoke;
+  font-family: "Great Vibes", cursive;
+}
+
+.aim h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+}
+.aim p {
+  font-family: "Great Vibes", cursive;
+  padding-left: 0.5em;
+  color: white;
+}
+
+.education {
+  text-align: center;
+}
+.education .ed {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+.education h1 {
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+.education .btn {
+  margin: 0.5em;
+}
+.education .progress {
+  margin: 2em;
+}
+
+.skills {
+  padding-top: 3em;
+}
+.skills .skl {
+  margin: 2em;
+}
+.skills h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+
+.proj {
+  margin-top: 5em;
+  margin-bottom: 0.5em;
+}
+.proj h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+.proj .row {
+  text-align: center;
+  margin: 1.25em;
+}
+.proj .card {
+  width: 18rem;
+  margin: 0.5em;
+  margin-left: 0;
+}
+
+.web-site {
+  margin-top: 5em;
+  margin-bottom: 0.5em;
+}
+.web-site h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+.web-site .row {
+  text-align: center;
+  margin: 1.25em;
+}
+.web-site .card {
+  width: 18rem;
+  margin: 0.5em;
+  margin-left: 0;
+}
+
+.resume {
+  margin-top: 5em;
+}
+.resume h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+.resume h3 {
+  text-align: center;
+  color: aqua;
+}
+.resume .res {
+  text-align: center;
+}
+.resume .res .btn {
+  margin: 3em;
+  padding: 1em;
+  text-align: center;
+}
+
+.contact {
+  margin-top: 4em;
+}
+.contact h1 {
+  text-align: center;
+  background-color: white;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+.contact .s-icons {
+  padding-left: 3em;
+  padding-bottom: 0.5em;
+}
+.contact .s-icons a {
+  color: white;
+}
+.contact .s-icons a:hover {
+  color: red;
+}
+
+footer {
+  text-align: right;
+  padding-right: 0.5em;
+  font-weight: bold;
+  padding-top: 3em;
+  background-color: black;
+}
+footer p {
+  color: white;
+  margin: 0;
+}
+
+@media only screen and (min-width: 680px) {
+  .aim {
+    align-items: center;
+  }
+  .aim p {
+    font-size: 2em;
+  }
+  .aim img {
+    padding: 2em;
+    width: 30%;
+    height: 70%;
+  }
+  .my-contact {
+    padding-left: 25em;
+    padding-right: 25em;
+  }
+}
+/*
+
+h3 {
+  color: red;
+}
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding: 2em;
+}
+
+/*footer {
+  height: 10%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  .cont {
+    padding-top:5em;
+    padding-bottom: 1em;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.col {
+  padding-top: 3em;
+}
+*//*# sourceMappingURL=main.css.map */
